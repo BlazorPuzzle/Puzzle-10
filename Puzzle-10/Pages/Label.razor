@@ -1,0 +1,15 @@
+﻿<p role="status">@ChildContent</p>
+
+@code {
+
+	[Parameter]
+	public RenderFragment ChildContent { get; set; }
+
+	protected override void OnAfterRender(bool first)
+	{
+		Console.WriteLine($"{DateTime.Now.ToLongTimeString()} - Rendered");
+		base.OnAfterRender(first);
+	}
+
+
+}
