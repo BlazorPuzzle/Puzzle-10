@@ -1,2 +1,3 @@
-# Puzzle-10
-The 10th puzzle of the Blazor Puzzle podcast
+# Puzzle 10 - Stop The Rendering
+
+Why does this child component keep rendering? How can we stop it?
